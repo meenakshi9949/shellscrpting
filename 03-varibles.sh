@@ -8,3 +8,4 @@ echo "$person1: Hello $person2, good morning"
 echo "$person2: Hi $person1, very good morning"
 echo "$person1: How are you Suresh?"
 echo "$person2: Iam good $person1 how are you?"
+# A change in any single location will effect automatically overall programme
