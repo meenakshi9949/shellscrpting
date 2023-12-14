@@ -6,3 +6,4 @@ echo "Total:: $SUM"
 
 echo "how many args passed:: $#"
 echo "all arguments passed:: $@"
+echo "script name:: $0"
