@@ -5,6 +5,8 @@ G="\e[32m"
 N="\e[0m"
 TIMESTAMP=$(date +%F-%H-%M-%S)
 LOGFILE="/tmp/$0-$TIMESTAMP.log"
+echo ""script started executing $TIMESTAMP" &>> $LOGFILE
+
 echo "script name :: $0"
 VALIDATE(){ 
 if [ $1 -ne 0 ]
@@ -23,7 +25,7 @@ exit 1
 else 
    echo "you are root user" 
 fi 
-yum install mysql -y &>> $LOGFILE
+yum install mysqlL -y &>> $LOGFILE
 VALIDATE $? "installing mysql" #THIS IS FUNCTION
 yum install git -y &>> $LOGFILE
 VALIDATE $? "installing git" #THIS IS FUNCTION
