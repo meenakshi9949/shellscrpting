@@ -12,7 +12,7 @@ then
     echo -e "ERROR:: $2....$R failed $N"
     exit 1 
 else 
-    echo -e "$2.... $G success"
+    echo -e "$2.... $G success $N"
 fi
 }
 
