@@ -1,7 +1,12 @@
 #!/bin/bash
-FRUITS=("Apple" "Banana" "strawberry")
-echo "FIRST VALUE: ${FRUITS[0]}"
-echo "SECOND VALUE: ${FRUITS[1]}"
-echo "THIRD VALUE: ${FRUITS[2]}"
-echo "all fruits: ${FRUITS[@]}"
-#for all we use @ symbol
+
+FRUITS=("Apple" "Banana" "Mango")
+
+echo "First value: ${FRUITS[0]}"
+
+echo "Second value: ${FRUITS[1]}"
+
+echo "Second value: ${FRUITS[2]}"
+
+# shellcheck disable=SC2145
+echo "All Fruits: ${FRUITS[@]}"
