@@ -1,11 +1,10 @@
-#!/bin/bash 
-ID=$(id -nu)
-
+#!/bin/bash
+ID=$(id -u)
 if [ $ID -ne 0 ]
-then 
-   echo "ERROR:: PLEASE RUN THIS CODE WITH ROOT ACCESS"
+then
+echo "ERROR:: please run this script with root previleges"
 
-else 
-   echo "YOU ARE ROOT USER" 
-fi    
+else
+echo "you are root user"
+fi
 
