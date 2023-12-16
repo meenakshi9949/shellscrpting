@@ -6,7 +6,7 @@ TIMESTAMP=$(date +%F-%H-%M-%S) #time
 
 LOGFILE="/tmp/$0-$TIMESTAMP.log" #this is log file
 
-R="\e[31m" 3colours
+R="\e[31m" #3colours
 G="\e[31m"
 Y="\e[32m"
 N="\e[0m" 
