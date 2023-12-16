@@ -15,7 +15,7 @@ VALIDATE(){ #function
 if [ $1 -ne 0 ] 
 then 
 echo -e "error:: $2...  $R failed $N"  
-exit 1 #validate previous command ececute or not
+#validate previous command ececute or not
 else 
 echo -e "$2...  $G success $N"  
 fi        
@@ -24,7 +24,7 @@ fi
 if [ $ID -ne 0 ] #root or not 
 then
 echo -e "$R ERROR:: PLEASE RUN THIS SCRIPT WITH ROOT ACCESS $N" 
-exit 1
+
 else 
 echo -e "$G YOU ARE ROOT USER $N" 
 fi
